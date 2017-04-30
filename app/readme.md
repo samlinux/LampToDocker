@@ -1,7 +1,6 @@
 # Create docker-pods
 
 ## Docker Host requirements
-
 - ubuntu 16.04 
 - ssh server configured and running
 - nginx server running 

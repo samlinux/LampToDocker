@@ -1,5 +1,12 @@
 #!/bin/bash
-# 001 c1.r2o
+
+#----------------------------------------------
+## deletes all generated customer containers
+## ./clear.sh 001 c1.r2o
+## ./clear.sh [PortID] [Domain]
+## @author Roland Bole
+#----------------------------------------------
+
 docker-compose -f /home/rbole/fh/app/c$1/docker-compose.yml down
 
 rm -R /home/rbole/fh/app/c$1 

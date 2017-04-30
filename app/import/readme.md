@@ -1,1 +1,1 @@
-copy here the import sql dump
+Copy the SQL dump to be imported into this folder. The file requires a sql suffix.
