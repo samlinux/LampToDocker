@@ -39,6 +39,10 @@ Delete all unused container
 sudo docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm
 ```
 
+Docker-cleanup-volumes
+```
+docker volume rm $(docker volume ls -qf dangling=true)
+```
 
 
 
